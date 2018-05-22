@@ -1,9 +1,9 @@
 $(document).ready(function() {
-	$('#salas').DataTable( {
+	$('#bancas').DataTable( {
 		"bDeferRender": true,
 		"sPaginationType": "full_numbers",
 		"ajax": {
-			"url": "functionBuscarSala.php",
+			"url": "functionBuscarBanca.php",
         	"type": "POST"
 		},
 		"columns": [

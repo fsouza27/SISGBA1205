@@ -24,7 +24,7 @@
     <script src="../media/js/jquery.dataTables.min.js"></script>
     <script src="../media/js/dataTables.bootstrap.min.js"></script>
     <script src="../media/js/bootstrap.min.js"></script>
-    <script src="../media/js/tabelaSalas.js"></script>
+    <script src="../media/js/tabelaBancas.js"></script>
     <script>
         $(document).ready(function(){
             $('[data-toggle="tooltip"]').tooltip();
@@ -48,7 +48,7 @@
     </div>
 
     <div class="col-md-8 col-md-offset-2">
-        <h1>Consulta de Salas</h1>
+        <h1>Consulta de Bancas</h1>
         <a href="../homeSalas.php"><h4 >VOLTAR</h4></a>
     </div>
     <br><br>
