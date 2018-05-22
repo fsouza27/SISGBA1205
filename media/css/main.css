@@ -1,0 +1,250 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #d8d8d8;
+}
+
+footer {
+    position: fixed;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    bottom: 0px;
+    clear: both;
+    width: 100%;
+    background-color: #929698;
+    padding: 15px;
+    z-index: -1;
+}
+
+.blueText {
+    color: #337ab7!important;
+}
+
+section.login form {
+    width: 450px;
+    max-width: 100%;
+    margin: -25px auto 100px;
+    border: 3px solid #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px #000;
+}
+
+section.login form h3 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+section.login form h4 {
+   text-align: center;
+   padding-bottom: 15px;
+}
+
+section.login form button {
+    margin-top: 10px;
+    width: 100%;
+}
+
+header {
+    margin: 50px 50px;
+    padding-bottom: 100px;
+}
+
+header div {
+    float: left;
+}
+
+header div:nth-child(2) h3 {
+    margin: 20px 12px;
+}
+
+header div:nth-child(2) h4 {
+    margin: -10px 12px;
+}
+
+#hat {
+    width: 100px;
+    height: 100px;
+    opacity: 0.2;
+}
+
+.bold {
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.line {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.menu-home {
+    width: 20%;
+    height: 500px;
+    background-color: #929698;
+    list-style-type:none;
+    margin-left: 50px;
+    float: left;
+}
+
+.menu-home li:first-child {
+    margin-top: 20px;
+}
+
+.menu-home  li {
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    text-align: center;
+    text-transform: none;
+    margin-left: -18px;
+    padding: 10px 0px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.menu-home li a {
+    color: #fff;
+}
+
+.menu-home li:hover {
+    background-color: silver;
+}
+
+.secao-usuario {
+    float: left;
+    margin: 30px 70px;
+}
+
+.cadastro-form {
+    margin-left: 20%;
+}
+
+.esqSenha {
+    margin-top: 15px;
+    text-align: left!important;
+}
+
+a:link, a:visited {
+	text-decoration: none
+}
+
+.btnCriarCadastro {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.btnCriarCadastro a {
+    color: #fff!important;
+}
+
+.header-user {
+    text-align: right;
+    margin: 50px 10%;
+    font-size: 28px;
+}
+
+
+/*============ header style ============*/
+body {
+    background:#f6f6f6;
+    overflow-x:hidden;
+}
+
+.page-title{
+    background: #e7e7e7 none repeat scroll 0 0;
+    border: 1px solid #c1c1c1;
+    font-weight: 100;
+    margin: 0;
+    padding: 15px 0;
+}
+
+.widget {
+    background: #ececec none repeat scroll 0 0;
+    border: 1px solid #adadad;
+    border-radius: 5px 5px 0 0;
+    margin: 20px 0;
+    padding: 0;
+}
+.widget-title {
+    background: #e4e4e4 none repeat scroll 0 0;
+    border-radius: 5px 5px 0 0;
+    font-size: 22px;
+    font-weight: 100;
+    margin: 0;
+    padding: 15px 0;
+    text-transform: uppercase;
+}
+.add-remove-class{
+    margin:15px 0px;
+}
+
+.show-more-snippet {
+    height:35px;
+    width:100%;
+    overflow:hidden;
+}
+
+#div-id{
+    display:none;
+}
+
+
+/** css gone here **/
+
+.near_by_hotel_wrapper{
+    background:#f5f5f5;
+}
+.custom_table {
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    margin-top: -3px !important;
+}
+.custom_table thead tr th {
+    padding: 0px 8px;
+    font-size: 16px;
+    border: 0 none !important;
+    border-top: 0 none !important;
+}
+.custom_table tbody tr {
+    -moz-box-shadow: 0 2px 3px #e0e0e0;
+    -webkit-box-shadow: 0 2px 3px #e0e0e0;
+    box-shadow: 0 2px 3px #e0e0e0;
+}
+.near_by_hotel_wrapper table tr td {
+    border-right: 1px solid #d2d1d1;
+}
+
+.custom_table tbody tr td {
+    background: #fff none repeat scroll 0 0;
+    border-top: 0 none !important;
+    margin-bottom: 20px;
+    padding: 10px 8px;
+    font-size: 16px;
+}
+.near_by_hotel_wrapper table tr td {
+    border-right: 1px solid #d2d1d1;
+}
+
+
+
+/**Colunas**/
+.column {
+    float: left;
+    width: 30%;
+    padding-left: 2%;
+}
+
+.column-lg {
+    float: left;
+    width: 70%;
+    padding-left: 2%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
