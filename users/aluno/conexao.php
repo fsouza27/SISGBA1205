@@ -3,7 +3,7 @@
 $hostname= "localhost";
 $username= "root";
 $password= "";
-$database= "sisgba_db";
+$database= "sisgba";
 
 $con=mysqli_connect($hostname,$username,$password,$database);
 // Check connection
