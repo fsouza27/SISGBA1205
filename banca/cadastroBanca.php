@@ -29,32 +29,28 @@
 	  <div class="row">
         <div class="col-md-6 col-md-offset-3">
             <form id="cadastro_sala" action="processaSala.php" method="post" accept-charset="utf-8" class="form" role="form">
-                    <h2 class="bold">Cadastrar Sala</h2><br>
+                    <h2 class="bold">Agendar Banca</h2><br>
                     <div class="row">
-                        <div class="col-xs-6 col-md-4">
-                            <label for="nome">Prédio: </label>
-                            <select name="predio" class = "form-control input-lg">
-                                <option value="01">Prédio 1</option>
-                                <option value="02">Prédio 2</option>
-                            </select>
+                        <div class="col-xs-6 col-md-12">
+                            <label for="tema">Tema do TCC: </label>
+                             <input type="text" name="tema" class="form-control input-lg" value=""/>
                         </div>
-                        <div class="col-xs-6 col-md-3">
-                            <label for="sala">Sala: </label>
-                            <input name="numero" class = "form-control input-lg" placeholder="nº"/>
-                        </div>
-
+                    </div><br>
+                    <div class="row">
+                        <div class="col-xs-6 col-md-12">
+                            <label for="autores">Autores: </label>
+                            <input name="autores" class="form-control input-lg" />
+                        </div><br>
                         <div class="col-xs-6 col-md-4">
-                            <label for="andar">Andar: </label>
-                            <select name="andar" value="" class="form-control input-lg" placeholder="Prédio">
+                            <label for="orientador">Prof. Orientador: </label>
+                            <select name="orientador" value="" class="form-control input-lg">
                                 <option value="0">Térreo</option>
                                 <option value="1">1º andar</option>
                                 <option value="2">2º andar</option>
                                 <option value="3">3º andar</option>
                             </select>
-                        </div>
+                        </div><br>
 
-                    </div><br>
-                    <div class="row">
                         <div class="col-xs-6 col-md-10">
                             <label for="descricao">Descrição: </label>
                             <textarea rows="3" name="descricao" value="" class="form-control input-sm"></textarea>

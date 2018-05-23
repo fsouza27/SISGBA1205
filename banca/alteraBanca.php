@@ -112,7 +112,7 @@
 
                     <div class="form-group">
                             <button type="submit" class="btn btn-success pull-left">ALTERAR</button>
-                            <a href="salas.php"><p class="btn btn-primary pull-right">VOLTAR</p></a>
+                            <a href="bancas.php"><p class="btn btn-primary pull-right">VOLTAR</p></a>
                         <div class="clearfix"></div>
                     </div>
                 </form>
