@@ -18,6 +18,3 @@ CREATE TABLE IF NOT EXISTS `professores` (
 INSERT INTO `professores` (`nome`, `rf`, `email`,`disciplina`, `senha`) VALUES
 ('PAULO SÉRGIO', '36363636', 'paulo@fatec.org.br','MATEMATICA', 1234),
 ('ANA PAULA', '87973757', 'anapaula@fatec.org.br', 'PORTUGUES', 1234);
-
-
-

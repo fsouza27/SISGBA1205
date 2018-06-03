@@ -65,7 +65,7 @@
 
                             <div class="from-group">
                                 <button type="submit" class="btn btn-success pull-left">ALTERAR</button>
-                                <a href="alunos.php"><p class="btn btn-primary pull-right">VOLTAR</p></a>
+                                <p onClick="JavaScript: window.history.back();" class="btn btn-primary pull-right">VOLTAR</p>
                                 <div class="clearfix"></div>
                             </div>
 						</form>

@@ -20,5 +20,11 @@ CREATE TABLE IF NOT EXISTS `alunos` (
 
 INSERT INTO `alunos` (`nome`,`ra`,`email`,`curso`,`senha`) VALUES
 ('Lucas Naldo','123456789','lucas_naldo@hotmail.com', 'ADS', '1234'),
-('adm','11111111', 'adm', 'ADM', '1234');
+('Bruno','11111111', 'adm', 'ADM', '1234'),
+('Fabio','123456789','fabio@fatec.com', 'ADS', '1234'),
+('William','11111111', 'william@fatec.com', 'ADM', '1234'),
+('Marcela','123456789','marcela@fatec.com', 'ADS', '1234'),
+('Bianca','11111111', 'bianca@fatec.com', 'ADM', '1234'),
+('Felipe','123456789','felipe@fatec.com', 'ADS', '1234'),
+('Matheus','11111111', 'mateus@fatec.com', 'teste', '1234');
 

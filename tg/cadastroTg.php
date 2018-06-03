@@ -36,7 +36,7 @@
         <section>
             <nav>
                 <ul class="menu-home">
-                    <a href="../users/professor/homeProfessor.php"><li><h5>Voltar</h5></li></a>
+                    <li onClick="JavaScript: window.history.back();"><h5>Voltar</h5></li>
                     <a href="sair.php"><li><h5>Sair</h5></li></a>
                 </ul>
             </nav>
@@ -44,7 +44,7 @@
         <section class="cadastro-form">
             <div class="container">
                 <div class="col-xs-8">
-                        <h2>Cadastro de Traalhos Acadêmicos</h2>
+                        <h2>Cadastro de Trabalhos Acadêmicos</h2>
                 </div>
                 <div class="col-sm-8">
                     <form id="cadastro_tg" action="processaTg.php" method="post">

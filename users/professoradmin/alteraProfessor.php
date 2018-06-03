@@ -58,29 +58,23 @@
 								Nome<input class="form-control" type="text" name="nome" value="<?php echo $nome ?>" /><br>
 								RF<input class="form-control" type="text" name="rf" value="<?php echo $rf ?>" /> <br>
 								Email<input class="form-control" type="text" name="email" value="<?php echo $email ?>" /> <br>
-								Disciplina<input class="form-control" type="text" name="disciplina" value="<?php echo $disciplina ?>" /> <br>
+                                Disciplina<input class="form-control" type="text" name="disciplina" value="<?php echo $disciplina ?>" /> <br>
+                                <div class="form-group" id="dia">
+                                    <label for="dia">Dia / Período</label><br>
+                                    <input type="checkbox" name="id_dia" value="">Segunda - Tarde
+                                    <input type="checkbox" name="id_dia2" value="" style="margin-left: 5px;">Segunda - Noite
+                                    <input type="checkbox" name="id_dia3" value="" style="margin-left: 5px;">Terça - Tarde
+                                    <input type="checkbox" name="id_dia4" value="" style="margin-left: 5px;">Terça - Noite
+                                    <input type="checkbox" name="id_dia5" value="" style="margin-left: 5px;">Quarta - Tarde
+                                    <input type="checkbox" name="id_dia6" value="" style="margin-left: 5px;">Quarta - Noite<br>
+                                    <input type="checkbox" name="id_dia7" value="">Quinta - Tarde
+                                    <input type="checkbox" name="id_dia8" value="" style="margin-left: 5px;">Quinta - Noite
+                                    <input type="checkbox" name="id_dia9" value="" style="margin-left: 5px;">Sexta - Tarde
+                                    <input type="checkbox" name="id_dia10" value="" style="margin-left: 5px;">Sexta - Noite
+                                    <input type="checkbox" name="id_dia11" value="" style="margin-left: 5px;">Sábado - Manhã
+                                </div>
+							</div>
 
-                        <div class="form-group">
-                          <label for="sel1">Select list (select one):</label>
-                          <select class="form-control" id="sel1">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                          </select>
-                          <br>
-                          <label for="sel2">Mutiple select list (hold shift to select more than one):</label>
-                          <select multiple class="form-control" id="sel2">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                          </select>
-                        </div>
-
-                            </div>
-         <!--DIV Disponibilidade-->
                             <div class="from-group">
                                 <button type="submit" class="btn btn-success pull-left">ALTERAR</button>
                                 <a href="professores.php"><p class="btn btn-primary pull-right">VOLTAR</p></a>

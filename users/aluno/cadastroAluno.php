@@ -23,14 +23,6 @@
                 </h4>
             </div>
         </header>
-        <!-- <section>
-            <nav>
-                <ul class="menu-home">
-                    <a href=alunos.php><li><h5>Voltar</h5></li></a>
-                    <a href=sair.php><li><h5>Sair</h5></li></a>
-                </ul>
-            </nav>
-        </section> -->
         <section class="cadastro-form">
             <div class="container">
                 <div class="col-xs-12">

@@ -49,7 +49,7 @@
 
     <div class="col-md-8 col-md-offset-2">
         <h1>Consulta de Professores
-            <a onClick="JavaScript: window.history.back();"><h4 >VOLTAR</h4></a>
+            <a href="homeProfessor.php"><h4 >VOLTAR</h4></a>
         </h1>
     </div>
     <br><br>

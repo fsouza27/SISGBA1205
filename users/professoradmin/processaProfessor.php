@@ -15,19 +15,8 @@ $email = $_POST['email'];
 $disciplina = $_POST['disciplina'];
 $senha= $_POST['senha'];
 $confSenha = $_POST['confSenha'];
-$id_dia = $_POST['id_dia'];
-$id_dia2 = $_POST['id_dia2'];
-$id_dia3 = $_POST['id_dia3'];
-$id_dia4 = $_POST['id_dia4'];
-$id_dia5 = $_POST['id_dia5'];
-$id_dia6 = $_POST['id_dia6'];
-$id_dia7 = $_POST['id_dia7'];
-$id_dia8 = $_POST['id_dia8'];
-$id_dia9 = $_POST['id_dia9'];
-$id_dia10 = $_POST['id_dia10'];
-$id_dia11 = $_POST['id_dia11'];
 
-$query_select = "SELECT email FROM professorDia WHERE email = '$email'";
+$query_select = "SELECT email FROM professores WHERE email = '$email'";
 $select = mysqli_query($con,$query_select);
 $array = mysqli_fetch_array($select);
 $logarray = $array['email'];
@@ -41,14 +30,13 @@ if($confSenha != $senha) {
     die();
 
 }else {
-    $query = "INSERT INTO professorDia (nome,rf,email,disciplina,id_dia,id_dia2,id_dia3,id_dia4,id_dia5,id_dia6,id_dia7,id_dia8,id_dia9,id_dia10,id_dia11,senha) VALUES ('$nome','$rf','$email','$disciplina',`$id_dia`,`$id_dia2`,`$id_dia3`,`$id_dia4`,`$id_dia5`,`$id_dia6`,`$id_dia7`,`$id_dia8`,`$id_dia9`,
-    `$id_dia10`,`$id_dia11`,'$senha')";
+    $query = "INSERT INTO professores (nome,rf,email,disciplina,senha) VALUES ('$nome','$rf','$email','$disciplina','$senha')";
     $insert = mysqli_query($con,$query);
 
         if($insert){
             echo"<script language='javascript' type='text/javascript'>alert('Professor cadastrado com sucesso!');window.location.href='professores.php'</script>";
         }else{
-            echo"<script language='javascript' type='text/javascript'>alert('Não foi possível cadastrar esse usuário');window.location.href='#'</script>";
+            echo"<script language='javascript' type='text/javascript'>alert('Não foi possível cadastrar esse usuário');window.location.href='cadastroProfessor.php'</script>";
         }
 }
 

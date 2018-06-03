@@ -18,9 +18,6 @@
         <!-- CSS -->
         <link rel="stylesheet" href="../../media/css/bootstrap.min.css" type="text/css"/>
         <link rel="stylesheet" href="../../media/css/main.css" type="text/css"/>
-
-
-
         <?php
             include_once('conexao.php');
             $id = $_GET['id'];
@@ -29,9 +26,6 @@
             $email = $_GET['email'];
             $disciplina = $_GET['disciplina'];
         ?>
-
-
-
 	</head>
 	<body>
         <header>
@@ -73,11 +67,7 @@
 				                    <b>Email</b><input class="form-control" type="text" name="email" value="<?php echo $email ?>" /> <br>
                                 </div>
                             </div>
-
-
                             <b>Disciplina</b><input class="form-control" type="text" name="disciplina" value="<?php echo $disciplina ?>" /> <br>
-
-
                          <div>
                               <label class="form-group">Titulação</label>
                           </div>
@@ -93,9 +83,6 @@
                           <div>
                               <label class="form-group" for="sel2">Disponibilidade</label>
                           </div>
-
-
-
 
 	<div class="near_by_hotel_wrapper">
                             <div class="near_by_hotel_container">
@@ -233,9 +220,6 @@
                             </div>
                         </div>
 	</div>
-
-
-
 
                             <div class="from-group">
                                 <button type="submit" class="btn btn-success pull-right">ALTERAR</button>

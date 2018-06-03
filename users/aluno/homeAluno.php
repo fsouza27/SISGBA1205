@@ -32,13 +32,20 @@
                 Sistema Gerenciador de Bancas Acadêmicas Web
                 </h4>
             </div>
+            <div class="header-right">
+                <?php
+                    $login_cookie = $_COOKIE['email'];
+                    echo"Olá, <font color='darkBlue'>$login_cookie </font>";
+                ?>
+                <img src="../../media/images/aluno.png" id="icon-aluno"/>
+            </div>
         </header>
         <section>
             <nav>
                 <ul class="menu-home">
-                    <a href="#.php"><li><h5>Meu cadastro</h5></li></a>
+                    <a href="altera.php"><li><h5>Editar cadastro</h5></li></a>
                     <a href="#"><li><h5>Meu Trabalho Acadêmico</h5></li></a>
-                    <a href="#"><li><h5>Pesquisa de Trabalhos Acadêmicos</h5></li></a>
+                    <a href="../../tg/tgAluno.php"><li><h5>Pesquisa de Trabalhos Acadêmicos</h5></li></a>
                     <a href="sair.php"><li><h5>Sair</h5></li></a>
                 </ul>
             </nav>

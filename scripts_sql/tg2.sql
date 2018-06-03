@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS `tg2` (
   `profOrientador` varchar(30) NOT NULL,
   `descricao` varchar(200) NOT NULL,
   `id_aluno1` int (12) NOT NULL,
-  `id_aluno2` int (12)),
+  `id_aluno2` int (12),
   `id_aluno3` int (12),
   `id_aluno4` int (12),
   FOREIGN KEY (id_aluno1) REFERENCES alunos(id),

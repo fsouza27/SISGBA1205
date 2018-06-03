@@ -1,6 +1,15 @@
 <?php
   session_start();
   include_once("conexao.php");
+  // Campos para pegar dados do profadmin
+
+  $emailProfA = $_POST['email'];
+  $senhaProfA = $_POST['senha'];
+
+  $sqlProfA="SELECT * FROM profadmin WHERE email='$emailProfA' AND senha='$senhaProfA' LIMIT 1";
+  $resultProfA=mysqli_query($con,$sqlProfA);
+
+  $resultadoProfA = mysqli_fetch_assoc($resultProfA);
 
   // Campos para pegar dados do professor
   $emailProfessor = $_POST['email'];
@@ -32,10 +41,16 @@
         $_SESSION['senhaSession'] = $senhaProfessor;
 
       header("Location:users/professor/homeProfessor.php");
+  } elseif ($resultadoProfA){
+	  setcookie("email",$resultadoProfA['nome']);
+        $_SESSION['emailSession'] = $emailProfA;
+        $_SESSION['senhaSession'] = $senhaProfA;
+
+      header("Location:users/professoradmin/homeAdmin.php");
   } else {
 	  //Mensagem de erro
 		$_SESSION['loginErro']="Usuário ou senha inválidos!";
-		echo"<script language='javascript' type='text/javascript'>alert('Login ou senha incorretos');window.location.href='#';</script>";
+		echo"<script language='javascript' type='text/javascript'>alert('Login ou senha incorretos');window.location.href='login.php';</script>";
 		die();
 	}
 

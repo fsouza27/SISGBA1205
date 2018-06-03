@@ -24,7 +24,7 @@
     <script src="../media/js/jquery.dataTables.min.js"></script>
     <script src="../media/js/dataTables.bootstrap.min.js"></script>
     <script src="../media/js/bootstrap.min.js"></script>
-    <script src="../media/js/tabelaTg.js"></script>
+    <script src="../media/js/tabelaTgAluno.js"></script>
     <script>
         $(document).ready(function(){
             $('[data-toggle="tooltip"]').tooltip();
@@ -49,7 +49,7 @@
 
     <div class="col-md-8 col-md-offset-2">
         <h1>Consulta de Trabalhos Acadêmicos
-            <a onClick="JavaScript: window.history.back();"><h4 >VOLTAR</h4></a>
+            <a onClick="JavaScript: window.history.back();"><h4>VOLTAR</h4></a>
         </h1>
     </div>
     <br><br>
@@ -63,7 +63,6 @@
                 <th>Tipo</th>
                 <th>Professor Orientador</th>
                 <th>Descrição</th>
-                <th>Editar / Excluir</th>
             </tr>
             </thead>
             <tbody>

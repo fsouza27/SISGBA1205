@@ -51,6 +51,11 @@ header {
     padding-bottom: 100px;
 }
 
+header .header-right {
+   float: right;
+   font-size: 32px;
+}
+
 header div {
     float: left;
 }
@@ -69,6 +74,12 @@ header div:nth-child(2) h4 {
     opacity: 0.2;
 }
 
+#icon-aluno{
+    width: 100px;
+    height: 100px;
+    opacity: 0.7;
+}
+
 .bold {
     font-weight: bold;
     letter-spacing: 2px;
@@ -81,7 +92,7 @@ header div:nth-child(2) h4 {
 
 .menu-home {
     width: 20%;
-    height: 500px;
+    height: 600px;
     background-color: #929698;
     list-style-type:none;
     margin-left: 50px;
@@ -107,6 +118,10 @@ header div:nth-child(2) h4 {
     color: #fff;
 }
 
+h4 {
+    cursor: pointer;
+}
+
 .menu-home li:hover {
     background-color: silver;
 }
@@ -114,6 +129,7 @@ header div:nth-child(2) h4 {
 .secao-usuario {
     float: left;
     margin: 30px 70px;
+    width: 65%;
 }
 
 .cadastro-form {
@@ -143,7 +159,6 @@ a:link, a:visited {
     margin: 50px 10%;
     font-size: 28px;
 }
-
 
 /*============ header style ============*/
 body {

@@ -14,7 +14,7 @@
         <!-- Metadados -->
         <meta charset="utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>SISGBA | Home Professores</title>
+		<title>SISGBA | Home Admin</title>
         <!-- CSS -->
         <link rel="stylesheet" href="../../media/css/bootstrap.min.css" type="text/css"/>
 		<link rel="stylesheet" href="../../media/css/main.css" type="text/css"/>
@@ -38,6 +38,10 @@
             <ul class="menu-home">
                 <a href="../../tg/cadastroTg.php"><li><h5>Cadastro de Trabalho de Graduação</h5></li></a>
                 <a href="../../tg/tg.php"><li><h5>Consulta de Trabalho de Graduação</h5></li></a>
+                <a href="../aluno/alunos.php"><li><h5>Consulta de Alunos</h5></li></a>
+                <a href="cadastroProfessor.php"><li><h5>Cadastro de Professores</h5></li></a>
+                <a href="professores.php"><li><h5>Consulta de Professores</h5></li></a>
+                <a href="../../tg/tg.php"><li><h5>Consulta de Trabalho de Graduação</h5></li></a>
                 <a href="sair.php"><li><h5>Sair</h5></li></a>
             </ul>
         </nav>
@@ -52,7 +56,7 @@
                 }else{
                     echo"Bem-Vindo, convidado <br>";
                     echo"Essas informações <font color='red'>NÃO PODEM</font> ser acessadas por você";
-                    echo"<br><a href='login.php'>Faça Login</a> Para ter acesso ao conteúdo";
+                    echo"<br><a href='../../login.php'>Faça Login</a> Para ter acesso ao conteúdo";
                 }
             ?>
             </h1>

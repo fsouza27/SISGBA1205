@@ -36,14 +36,14 @@
         <section>
             <nav>
                 <ul class="menu-home">
-                    <li onClick="JavaScript: window.history.back();"><h4 >VOLTAR</h4></li>
+                    <a href="homeProfessor.php"><li><h5>Voltar</h5></li></a>
                     <a href="sair.php"><li><h5>Sair</h5></li></a>
                 </ul>
             </nav>
         </section>
         <section class="cadastro-form">
             <div class="container">
-                <div class="col-xs-6">
+                <div class="col-xs-12">
                         <h2>Cadastro de Professor</h2>
                 </div>
                 <div class="col-sm-8">
@@ -67,16 +67,16 @@
                         <div class="form-group" id="dia">
                             <label for="dia">Dia / Período</label><br>
                             <input type="checkbox" name="id_dia" value="">Segunda - Tarde
-                            <input type="checkbox" name="id_dia2" value="">Segunda - Noite
-                            <input type="checkbox" name="id_dia3" value="">Terça - Tarde
-                            <input type="checkbox" name="id_dia4" value="">Terça - Noite
-                            <input type="checkbox" name="id_dia5" value="">Quarta - Tarde
-                            <input type="checkbox" name="id_dia6" value="">Quarta - Noite
+                            <input type="checkbox" name="id_dia2" value="" style="margin-left: 5px;">Segunda - Noite
+                            <input type="checkbox" name="id_dia3" value="" style="margin-left: 5px;">Terça - Tarde
+                            <input type="checkbox" name="id_dia4" value="" style="margin-left: 5px;">Terça - Noite
+                            <input type="checkbox" name="id_dia5" value="" style="margin-left: 5px;">Quarta - Tarde
+                            <input type="checkbox" name="id_dia6" value="" style="margin-left: 5px;">Quarta - Noite<br>
                             <input type="checkbox" name="id_dia7" value="">Quinta - Tarde
-                            <input type="checkbox" name="id_dia8" value="">Quinta - Noite
-                            <input type="checkbox" name="id_dia9" value="">Sexta - Tarde
-                            <input type="checkbox" name="id_dia10" value="">Sexta - Noite
-                            <input type="checkbox" name="id_dia11" value="">Sábado - Manhã
+                            <input type="checkbox" name="id_dia8" value="" style="margin-left: 5px;">Quinta - Noite
+                            <input type="checkbox" name="id_dia9" value="" style="margin-left: 5px;">Sexta - Tarde
+                            <input type="checkbox" name="id_dia10" value="" style="margin-left: 5px;">Sexta - Noite
+                            <input type="checkbox" name="id_dia11" value="" style="margin-left: 5px;">Sábado - Manhã
                         </div>
                         <div class="form-group">
                             <label for="senha">Senha</label>
