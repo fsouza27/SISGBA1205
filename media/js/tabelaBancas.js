@@ -7,15 +7,17 @@ $(document).ready(function() {
         	"type": "POST"
 		},
 		"columns": [
-			{ "data": "id" },
-			{ "data": "numero" },
-			{ "data": "predio" },
-			{ "data": "andar" },
-			{ "data": "descricao" },
-			{ "data": "capacidade" },
-			{ "data": "computador" },
-			{ "data": "projetor" },
-			{ "data": "som" },
+			{ "data": "titulo" },
+			{ "data": "id_autor1" },
+			{ "data": "id_autor2" },
+			{ "data": "id_autor3" },
+			{ "data": "id_autor4" },
+			{ "data": "id_profPresidente" },
+			{ "data": "profOrientador" },
+			{ "data": "id_profConvidado" },
+			{ "data": "data" },
+            { "data": "horario" },
+            { "data": "local" },
 			{ "data": "acciones"}
 			],
 		"oLanguage": {

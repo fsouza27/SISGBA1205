@@ -77,7 +77,7 @@
 
                             <div class="from-group">
                                 <button type="submit" class="btn btn-success pull-left">ALTERAR</button>
-                                <a href="professores.php"><p class="btn btn-primary pull-right">VOLTAR</p></a>
+                                <a href="homeAdmin.php"><p class="btn btn-primary pull-right">VOLTAR</p></a>
                                 <div class="clearfix"></div>
                             </div>
 						</form>

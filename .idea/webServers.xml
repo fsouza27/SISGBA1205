@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="caac81f8-fce1-4202-a062-ebe75b29d4bc" name="sisgba1205" url="http://localhost/sisgba1205">
+        <fileTransfer port="0" mountedRoot="C:\wamp64\www\sisgba1205" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

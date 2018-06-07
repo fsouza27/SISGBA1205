@@ -36,14 +36,14 @@
         <section>
             <nav>
                 <ul class="menu-home">
-                    <a href="homeProfessor.php"><li><h5>Voltar</h5></li></a>
+                    <li onClick="JavaScript: window.history.back();"><h5>Voltar</h5></li>
                     <a href="sair.php"><li><h5>Sair</h5></li></a>
                 </ul>
             </nav>
         </section>
         <section class="cadastro-form">
             <div class="container">
-                <div class="col-xs-12">
+                <div class="col-xs-8">
                         <h2>Cadastro de Professor</h2>
                 </div>
                 <div class="col-sm-8">

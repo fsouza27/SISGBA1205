@@ -13,7 +13,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>SISGBA | Consulta de Salas</title>
+    <title>SISGBA | Consulta de Bancas</title>
     <!--CSS-->
     <link rel="stylesheet" href="../media/css/bootstrap.min.css" type="text/css"/>
     <link rel="stylesheet" href="../media/css/dataTables.bootstrap.min.css">
@@ -33,6 +33,19 @@
 </head>
 
 <body>
+    <header>
+            <div>
+                <img src="../media/images/chapeu.png" id="hat"/>
+            </div>
+            <div>
+                <h3>
+                    <span class="bold">SISGBA</span>
+                </h3>
+                <h4>
+                Sistema Gerenciador de Bancas Acadêmicas Web
+                </h4>
+            </div>
+        </header>
 
     <div class="header-user">
         <?php
@@ -46,25 +59,27 @@
         }
         ?>
     </div>
-
     <div class="col-md-8 col-md-offset-2">
-        <h1>Consulta de Bancas</h1>
-        <a href="../homeSalas.php"><h4 >VOLTAR</h4></a>
+        <h1>Consulta de Trabalhos Acadêmicos
+            <a onClick="JavaScript: window.history.back();"><h4 >VOLTAR</h4></a>
+        </h1>
     </div>
     <br><br>
-    <div class="col-md-10 col-md-offset-1">
+    <div class="col-md-5 col-md-offset-1">
         <table id="bancas" class="table table-striped table-bordered" cellspacing="0" width="100%">
             <thead>
             <tr>
-                <th>Código</th>
-                <th>Sala</th>
-                <th>Prédio</th>
-                <th>Andar</th>
-                <th>Descrição</th>
-                <th>Capacidade</th>
-                <th>Computador</th>
-                <th>Projetor</th>
-                <th>Som</th>
+                <th>Título</th>
+                <th>Aluno</th>
+                <th>Aluno</th>
+                <th>Aluno</th>
+                <th>Aluno</th>
+                <th>Professor Presidente</th>
+                <th>Professor Orientador</th>
+                <th>Professor Convidado</th>
+                <th>Data</th>
+                <th>Hora</th>
+                <th>Local</th>
                 <th>Editar / Excluir</th>
             </tr>
             </thead>

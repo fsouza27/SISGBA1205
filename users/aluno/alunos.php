@@ -33,7 +33,19 @@
 </head>
 
 <body>
-
+    <header>
+            <div>
+                <img src="../media/images/chapeu.png" id="hat"/>
+            </div>
+            <div>
+                <h3>
+                    <span class="bold">SISGBA</span>
+                </h3>
+                <h4>
+                Sistema Gerenciador de Bancas Acadêmicas Web
+                </h4>
+            </div>
+        </header>
     <div class="header-user">
         <?php
         $login_cookie = $_COOKIE['email'];
@@ -52,7 +64,7 @@
         <a onClick="JavaScript: window.history.back();"><h4 >VOLTAR</h4></a>
     </div>
     <br><br>
-    <div class="col-md-10 col-md-offset-1">
+    <div class="col-md-8 col-md-offset-1">
         <table id="example" class="table table-striped table-bordered" cellspacing="0" width="100%">
             <thead>
             <tr>

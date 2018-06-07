@@ -36,12 +36,13 @@
         <section>
         <nav>
             <ul class="menu-home">
-                <a href="../../tg/cadastroTg.php"><li><h5>Cadastro de Trabalho de Graduação</h5></li></a>
-                <a href="../../tg/tg.php"><li><h5>Consulta de Trabalho de Graduação</h5></li></a>
+                <a href="../../tg/cadastroTg.php"><li><h5>Cadastrar Trabalho de Graduação</h5></li></a>
+                <a href="../../tg/tg.php"><li><h5>Consultar Trabalho de Graduação</h5></li></a>
                 <a href="../aluno/alunos.php"><li><h5>Consulta de Alunos</h5></li></a>
-                <a href="cadastroProfessor.php"><li><h5>Cadastro de Professores</h5></li></a>
-                <a href="professores.php"><li><h5>Consulta de Professores</h5></li></a>
-                <a href="../../tg/tg.php"><li><h5>Consulta de Trabalho de Graduação</h5></li></a>
+                <a href="cadastroProfessor.php"><li><h5>Cadastrar Professores</h5></li></a>
+                <a href="professores.php"><li><h5>Consultar Professores</h5></li></a>
+                <a href="../../banca/cadastroBanca.php"><li><h5>Cadastrar Banca</h5></li></a>
+                <a href="../../banca/bancas.php"><li><h5>Consultar Banca</h5></li></a>
                 <a href="sair.php"><li><h5>Sair</h5></li></a>
             </ul>
         </nav>

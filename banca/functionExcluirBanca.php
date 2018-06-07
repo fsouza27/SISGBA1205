@@ -10,13 +10,13 @@
 include_once('conexao.php');
 
 $id = $_GET['id'];
-$query = "DELETE FROM alunos WHERE id='$id'";
+$query = "DELETE FROM banca WHERE id='$id'";
 $insert = mysqli_query($con,$query);
 
     if($insert){
-      echo"<script language='javascript' type='text/javascript'>alert('Usuário excluído!');window.location.href='alunos.php'</script>";
+      echo"<script language='javascript' type='text/javascript'>alert('Banca excluída!');window.location.href='alunos.php'</script>";
     }else{
-      echo"<script language='javascript' type='text/javascript'>alert('Não foi possível excluir o usuário');window.location.href='alunos.php'</script>";
+      echo"<script language='javascript' type='text/javascript'>alert('Não foi possível excluir a banca');window.location.href='bancas.php'</script>";
     }
 
 ?>

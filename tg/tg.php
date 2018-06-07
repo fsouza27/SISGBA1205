@@ -33,7 +33,19 @@
 </head>
 
 <body>
-
+    <header>
+            <div>
+                <img src="../media/images/chapeu.png" id="hat"/>
+            </div>
+            <div>
+                <h3>
+                    <span class="bold">SISGBA</span>
+                </h3>
+                <h4>
+                Sistema Gerenciador de Bancas Acadêmicas Web
+                </h4>
+            </div>
+        </header>
     <div class="header-user">
         <?php
             $login_cookie = $_COOKIE['email'];
